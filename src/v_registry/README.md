@@ -7,7 +7,7 @@
 # ADD
 
 ```
-dfx canister --network ic call v_registry update '( record {
+dfx canister --network ic call v_registry add '( record {
         thumbnail = "https://pbs.twimg.com/profile_images/1451280165464645638/PXa4IWA0_400x400.jpg";
         name = "Plethora";
         frontend = null;
